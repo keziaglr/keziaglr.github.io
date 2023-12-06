@@ -10,7 +10,7 @@ const data = [
         "Conducted team investigations for application ideas.",
         "Conducted interviews with 5 experts (teachers, dyslexia specialists, psychologists, and school principals) and users (a dyslexic mother with 2 dyslexic children).",
         "Assigned tasks and guided team as a tech lead.",
-        "Led UI/UX design.",
+        "Designed UI/UX elements.",
         "Conducted user testing with 5 children.",
         "Implemented word segmentation and combination features.",
         "Developed word pronunciation with Speech-to-Text.",
