@@ -25,7 +25,10 @@ const data = [
             "link": "https://testflight.apple.com/join/9KglWhL9"
         },{
             "type": "GitHub",
-            "link": "https://github.com/keziaglr/macro-challenge"
+            "link": "https://github.com/keziaglr/PONO"
+        },{
+            "type": "Video",
+            "link": "https://youtu.be/bOvoGFs2QtU"
         }
       ],
       "tech": ["SwiftUI", "AVFoundation", "TensorFlow", "SwiftChart", "CoreData", "Speech-to-Text", "MVVM"]
@@ -52,7 +55,10 @@ const data = [
           },{
               "type": "GitHub",
               "link": "https://github.com/keziaglr/pandawa"
-          }
+          },{
+            "type": "Video",
+            "link": "https://youtu.be/v3cf3-KNW5Q"
+            }
         ],
         "tech": ["SwiftUI", "AVFoundation", "SpriteKit"]
       },{
@@ -61,7 +67,7 @@ const data = [
         "type": "Mobile",
         "icon": "assets/img/portfolio/Study Buddy Logo.png",
         "cover": "assets/img/portfolio/Study Buddy Portfolio.png",
-        "desc": ["The University of South Australia's 2014 study, <a href=\"https://ro.uow.edu.au/cgi/viewcontent.cgi?article=1097&context=ajpl\" > \"Classmate peer-coaching: A Study Buddy Support scheme\" </a> published in the Journal of Peer Learning, revealed a 23% higher pass rate for students in the study buddy scheme compared to those who studied alone, highlighting the effectiveness of collaborative learning.", "<b>Study Buddy</b> is an iOS app for finding your perfect study buddy and forming tight-knit learning communities. With Study Buddy, you can effortlessly connect with up to 6 like-minded learners, creating a dedicated chatroom to discuss, collaborate, and study together."],
+        "desc": ["The University of South Australia's 2014 study, <a href=\"https://ro.uow.edu.au/cgi/viewcontent.cgi?article=1097&context=ajpl\" > \"Classmate peer-coaching: A Study Buddy Support scheme\" </a> published in the Journal of Peer Learning, revealed a 23% higher pass rate for students in the study buddy scheme compared to those who studied alone, highlighting the effectiveness of collaborative learning.", "<b>Study Buddy</b> is an iOS app for finding your perfect study buddy and forming tight-knit learning communities. With Study Buddy, you can effortlessly connect with up to 6 like-minded learners, creating a dedicated chatroom to discuss, collaborate, and study together. Including functionalities such as effortless registration and login, community discovery and creation, dedicated chatrooms for discussions, schedule study sessions, add them to their individual calendars, and access or add resources during discussions, and user profiles with customizable badges."],
         "tasks": [
             "Conducted team investigations for application ideas.",
             "Assigned tasks and guided team as a tech lead.",
@@ -72,19 +78,26 @@ const data = [
         ],
         "date": "Jun 2023 - Jul 2023",
         "links": [
-          {
-              "type": "GitHub",
-              "link": "https://github.com/keziaglr/study-buddy"
-          }
+            {
+                "type": "TestFlight",
+                "link": "https://testflight.apple.com/join/1e750Dfx"
+            },
+            {
+                "type": "GitHub",
+                "link": "https://github.com/keziaglr/study-buddy"
+            },{
+                "type": "Video",
+                "link": "https://youtu.be/a53IOFsff0c"
+            }
         ],
-        "tech": ["SwiftUI", "Firebase Storage", "Firestore", "Firebase Auth", "DocumentPicker", "WebKit"]
+        "tech": ["SwiftUI", "Firebase", "EventKit", "WebKit"]
       },{
         "id": 3,
         "name": "Platymily",
         "type": "Game",
         "icon": "assets/img/portfolio/Platymily Logo.png",
         "cover": "assets/img/portfolio/Platymily Portfolio.png",
-        "desc": ["Engaging in play with your child, as endorsed by Dr. Michael Popkin, not only fosters the child's self-esteem, facilitates learning, and enhances skill acquisition but also strengthens the parent-child bond. Furthermore, scientific findings indicate that such play releases oxytocin, promoting trust, relationship building, and stress reduction for both parent and child.", "<b>Platymily</b> is an iOS game designed to enhance family relationships through a collection of engaging multiplayer mini-games. With its low entry barrier and minimal time commitment, Platymily ensures that players of all ages can enjoy fun and enjoyable gameplay."],
+        "desc": ["Engaging in play with your child, as endorsed by Dr. Michael Popkin, not only fosters the child's self-esteem, facilitates learning, and enhances skill acquisition but also strengthens the parent-child bond. Furthermore, scientific findings indicate that such play releases oxytocin, promoting trust, relationship building, and stress reduction for both parent and child.", "<b>Platymily</b> is a collection of mini-games designed to strengthen the bond between parents and children, featuring engaging features such as story openings and endings that unfold challenges, a map displaying family challenges, six unique mini-games requiring collaboration between parents and children, customizable character profiles with wardrobe options, and a Platyroll where users can exchange coins for random clothing sets."],
         "tasks": [
           "Conducted investigations for application ideas.",
           "Assigned tasks and guided team as a tech lead.",
@@ -95,10 +108,17 @@ const data = [
         ],
         "date": "Apr 2023 - May 2023",
         "links": [
+            {
+                "type": "TestFlight",
+                "link": "https://testflight.apple.com/join/KcHpznlw"
+            },
           {
               "type": "GitHub",
               "link": "https://github.com/keziaglr/platymily"
-          }
+          },{
+            "type": "Video",
+            "link": "https://youtu.be/KibVD301V8g"
+            }
         ],
         "tech": ["SwiftUI", "UIKit", "SpriteKit", "CoreData", "AVFoundation"]
       },{
@@ -117,9 +137,13 @@ const data = [
         ],
         "date": "Apr 2023 - May 2023",
         "links": [
+            {
+                "type": "TestFlight",
+                "link": "https://testflight.apple.com/join/hi0b0uOM"
+            },
           {
               "type": "GitHub",
-              "link": "https://github.com/keziaglr/platymily"
+              "link": "https://github.com/keziaglr/tower-block"
           }
         ],
         "tech": ["SwiftUI", "SpriteKit", "CoreData", "AVFoundation"]
@@ -161,14 +185,14 @@ const data = [
               "link": "https://github.com/keziaglr/kzkin-mobile"
           }
         ],
-        "tech": ["Kotlin", "Firestore", "Firebase Storage", "Firebase Auth", "Android Studio"]
+        "tech": ["Kotlin", "Firebase", "Android Studio"]
     },{
         "id": 7,
         "name": "Tohopedia",
         "type": "Web",
         "icon": "assets/img/portfolio/Tohopedia Logo.png",
         "cover": "assets/img/portfolio/Tohopedia Portfolio.png",
-        "desc": ["<b>Tohopedia</b> is an e-marketplace startup that enables users buy item from shops, which are created by the user themselves with hope of gaining income."],
+        "desc": ["<b>Tohopedia</b> is an online platform, replicating Tokopedia, with a three-fold role system (admin, seller, user) and features such as two-factor authentication, account management, store setup, product listing, transaction history, and communication tools, offering a comprehensive marketplace experience for users, sellers, and administrators.","Users can enjoy secure registration, efficient shopping with filtering and sorting options, wishlist management, voucher utilization, anonymous or public product reviews, and interactive discussions, creating a dynamic and user-friendly online marketplace."],
         "tasks": [
             "Coded functionalities for the website.",
         ],
@@ -189,7 +213,7 @@ const data = [
         "type": "Web",
         "icon": "",
         "cover": "assets/img/portfolio/Online Florist Portfolio.png",
-        "desc": ["<b>Online Florist</b>, a renowned flower shop in Indonesia, is venturing into the online domain with the creation of a dedicated website. This platform empowers users to explore details about the flower shop's offerings and conveniently place orders, providing customers with comprehensive information on the array of flowers available at Online Florist."],
+        "desc": ["<b>Online Florist</b> is a flower marketplace website designed for buying and selling flowers, featuring user and admin roles. Users can conveniently purchase flowers, view transaction history, while administrators have control over managing flowers, flower types, couriers, and users, enhancing the online marketing of floral products"],
         "tasks": [
             "Coded functionalities for the website.",
         ],
@@ -207,7 +231,7 @@ const data = [
         "type": "Game",
         "icon": "assets/img/portfolio/Game Logo.png",
         "cover": "assets/img/portfolio/Game Portfolio.png",
-        "desc": ["<b>The Adventure of Lorenzo</b> is a third person shooter game which tell a story about the legend of a famous special agent from Bluejack Defense System, Lorenzo Synthesis Thirty. Currently, the Bluejack Defense System is weak due to crisis of a component called Core Item. Until recently, researchers of Bluejack Defense System have detected that there are tons of core items in a planet called Underworld.", "Unfortunately, the planet is very hostile. So, Bluejack Defense System decided to assign their top special agent, Lorenzo Synthesis Thirty, to go to the Underworld and retrieve the core items needed from this planet and return with it to strengthen Bluejack Defense System"],
+        "desc": ["<b>The Adventure of Lorenzo</b> is a first-person/third-person shooter game with the objective of reaching the spaceship area in the basement. Players face patrolling enemies in different zones, each with unique damage capabilities, and can respawn at designated points.", "The game incorporates inventory items to enhance the player's abilities, requires collecting core items to open the basement door, and features a special attack with a visualized lightning animation using the prim algorithm, complemented by appropriate animations and sound effects, along with customizable display options and the ability to pause the game."],
         "tasks": [
             "Coded functionalities for the game.",
         ],
@@ -225,7 +249,7 @@ const data = [
         "type": "Desktop",
         "icon": "",
         "cover": "assets/img/portfolio/Bee-Portal Portfolio.png",
-        "desc": ["<b>Bee-Portal</b> is a learning management system in SLC University. The system will then be utilized to manage and provide student services on cloud in SLC University."],
+        "desc": ["<b>Bee-Portal</b> is a desktop application focused on learning management systems, aiming to streamline online learning management with five roles: student, lecturer, academic department, administrative department, and scoring department.", "Users can access class schedules, syllabus, scores, and forums, while academic and administrative departments manage courses, allocate resources, and address score protests. Lecturers oversee teaching schedules, course details, and forum activities, preventing cheating, creating assignments, managing student groups, and updating grades, while the scoring department handles finalizing and assisting with score protests."],
         "tasks": [
             "Created analysis diagram (Activity Diagram, Class Diagram, Use Case Diagram, Full Use Case Description, Multi-layer Sequence Diagram).",
             "Coded functionalities for the application.",
@@ -244,7 +268,7 @@ const data = [
         "type": "Web",
         "icon": "",
         "cover": "assets/img/portfolio/BeeCara Portfolio.png",
-        "desc": ["<b>BeeCara</b> is a web application for Binusian to seek and join events to get SAT points and Community Service Hour."],
+        "desc": ["<b>BeeCara</b> is a web application for Binusian to seek and join events to get SAT points and Community Service Hour, offering features such as Microsoft account login, event browsing and filtering through calendars or lists, event registration with payment proof upload, profile editing, and viewing upcoming events. Additionally, administrators have the ability to create events, approve or reject participants, and track attendance."],
         "tasks": [
             "Conducted investigations for application ideas.",
             "Developed profile features (edit profile & upcoming events).",
@@ -263,9 +287,10 @@ const data = [
         "type": "Desktop",
         "icon": "",
         "cover": "assets/img/portfolio/Laptop Store Portfolio.png",
-        "desc": ["<b>Laptop Store</b> is a desktop application facilitates user and admin roles to efficiently manage laptop transactions, providing a seamless experience for buying and selling laptops."],
+        "desc": ["<b>Laptop Store</b> is a desktop application specializing in laptop sales, aiming to facilitate user transactions. With distinct roles for users and admins, the features include account login and registration, user capabilities to purchase laptops and view transaction history, as well as admin functionalities to manage laptop and brand data, along with monitoring transaction history for all users."],
         "tasks": [
             "Developed backend data related to the database.",
+            "Connected the UI display with backend logic."
         ],
         "date": "Dec 2021",
         "links": [

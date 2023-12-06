@@ -59,7 +59,11 @@ function setDetail(){
     let cover = document.getElementById("img-cover")
     cover.src = data[index].cover
     let icon = document.getElementById("img-icon")
-    icon.src = data[index].icon
+    if (data[index].icon == "") { 
+        icon.style.display="none";
+    }else {
+        icon.src = data[index].icon
+    }
     setLinks(index)
     setTechs(index)
     setDesc(index)
